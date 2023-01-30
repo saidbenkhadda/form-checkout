@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/background.jpg);
+    background-size: 100vw;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70vh;
+    margin: auto;
+    background-color: white;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+main img {
+    width: auto;
+    height: 70vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+input,label,select,option,button {
+    display: inline-block;
+    width: 70%;
+    margin: 7px 20px;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+label {
+    color: rgb(176, 0, 176);
+}
+input,select {
+    border-style: solid;
+    border-width: 0 0 1px 0;
+}
+h1,h2 {
+    font-size: 1rem;
+    margin: 7px 20px;
+    color: rgb(176, 0, 176);
+}
+button {
+    background-image: linear-gradient(to right, rgb(3, 76, 140), rgb(176, 0, 176));
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 20px;
+}
+.form-checkout {
+    height: 70vh;
+    margin-top: 10vh;
+}
